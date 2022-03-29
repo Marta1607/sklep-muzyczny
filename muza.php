@@ -36,8 +36,7 @@
     $q2 = mysqli_query($pobieranie, "SELECT imie, nazwisko FROM Uzytkownicy");
     $q3 = mysqli_query($pobieranie, "SELECT adres FROM Uzytkownicy WHERE id='1'");
 
-    while($t=mysqli_fetch_array($q))
-    echo $t['id']."  ".$t['imie']."  ".$t['nazwisko']."  ".$t['adres']." ". $t['telefon'].'<br>';
+    echo $imie.''.$nazwisko.'zostało zarejestrowane w sklepie';
 
     mysqli_close($pobieranie);
 ?>
