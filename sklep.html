@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <h1>SKLEP MUZYCZNY</h1>
+    </div>
+
+    <div class="lewy">
+        <h2>NASZA OFERTA</h2>
+        <ol>
+            <li>Instrumenty muzyczne</li>
+            <li>Sprzęt audio</li>
+            <li>Płyty CD</li>
+        </ol>
+    </div>
+
+    <div class="prawy">
+        <h2>FORMULARZ REJESTRACYJNY</h2>
+    <form action="muza.php" method="post">
+        <p><b>Dane osobowe</b></p>
+        <label for=""> Imię </label><br>
+        <input type="text" name="imie" id=""><br>
+        <label for=""> Nazwisko </label><br>
+        <input type="text" name="nazwisko" id=""><br>
+        <label for=""> Adres </label><br>
+        <input type="text" name="adres" id=""><br>
+        <label for=""> Telefon </label><br>
+        <input type="text" name="tel" id=""><br>
+        <hr>
+        <p><b>Dane logowania</b></p>
+        Login <br>
+        <input type="text" name="log" id=""><br>
+        Hasło <br>
+        <input type="password" name="haslo" id=""><br>
+        <input type="checkbox" name="akcept" id="">
+        Akceptuję <a href="">regulamin</a> sklepu <br>
+        <button type="reset">WYCZYŚĆ</button>
+        <button type="submit">REJESTRUJ</button>
+    </form>
+</div>
+</body>
+</html>
